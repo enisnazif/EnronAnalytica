@@ -1,8 +1,0 @@
-name: Enron_Explorer
-account: enronexplorer
-server: shinyapps.io
-bundleId: 390398
-url: https://enronexplorer.shinyapps.io/Enron_Explorer/
-when: 1457445399.16655
-asMultiple: FALSE
-asStatic: FALSE
