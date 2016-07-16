@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'Cleaner'
+
+repositories
+{
+    mavenCentral()
+}
+
+dependencies
+{
+	compile 'javax.mail:mail:1.5.0-b01'
+	compile 'com.google.code.gson:gson:2.5'
+	compile 'org.neo4j:neo4j:3.0.0-M03'
+}
+
+run 
+{
+    if(project.hasProperty('args'))
+    {
+        args project.args.split('\\s')   
+     }
+}

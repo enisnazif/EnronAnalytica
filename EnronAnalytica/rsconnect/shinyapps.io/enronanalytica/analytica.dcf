@@ -1,0 +1,8 @@
+name: analytica
+account: enronanalytica
+server: shinyapps.io
+bundleId: 392693
+url: https://enronanalytica.shinyapps.io/analytica/
+when: 1457671523.87016
+asMultiple: FALSE
+asStatic: FALSE
